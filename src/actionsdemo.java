@@ -12,9 +12,6 @@ public class actionsdemo {
         driver.get("https://www.amazon.in/");
         Actions a = new Actions(driver);
 
-
-
-
         //to send words with shift keys and press enter
         WebElement searchBox = driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']"));
         a.moveToElement(searchBox).click().keyDown(Keys.SHIFT).sendKeys("watch").keyDown(Keys.ENTER).build().perform();
