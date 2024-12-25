@@ -15,6 +15,9 @@ public class framesTest {
         WebElement source = driver.findElement(By.id("draggable"));
         WebElement root = driver.findElement(By.id("droppable"));
         a.dragAndDrop(source,root).build().perform();
+
+        //to switch out of frame
+        driver.switchTo().defaultContent();
         driver.quit();
     }
 }
