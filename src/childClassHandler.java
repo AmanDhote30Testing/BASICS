@@ -9,7 +9,6 @@ public class childClassHandler {
     public static void main(String[] args){
         System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        // TODO Auto-generated method stub
         driver.get("https://rahulshettyacademy.com/loginpagePractise/#");
 
         driver.findElement(By.cssSelector(".blinkingText")).click();
