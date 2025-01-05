@@ -1,7 +1,8 @@
+package main;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
 import java.io.File;
 import java.io.IOException;
