@@ -1,0 +1,2 @@
+# Test Suites Directory
+This directory contains test suite XML configuration files (testng.xml, purchase.xml, ErrorValidationTest.xml, etc.)
