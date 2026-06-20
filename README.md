@@ -16,10 +16,7 @@ mvn clean test
 ```
 
 ## What's in here
-- Basic WebDriver setup
-- Page Object Model structure
-- TestNG test classes
-- Utility methods (screenshots, waits)
+- Basic to advanced selenium methods uses.
 
 ## Notes
 Still a work in progress. Each commit adds a new concept.
