@@ -1,4 +1,4 @@
-# Selenium Framework — From Scratch
+# Selenium Framework — core concepts.
 
 Building a Selenium WebDriver framework step by step in Java.
 This is my practice repo for understanding how frameworks are structured
